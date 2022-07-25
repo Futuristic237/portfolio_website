@@ -13,3 +13,15 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+    // NavBar Hide On Click Outside Start
+
+    $(document).ready(function () { 
+        $(document).click(function () {
+           // if($(".navbar-collapse").hasClass("in")){
+             $('.navbar-collapse').collapse('hide');
+           // }
+        });
+      });
+
+    // NavBar Hide On Click Outside End
